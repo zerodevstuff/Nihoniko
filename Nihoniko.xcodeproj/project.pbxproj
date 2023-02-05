@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1873404C298F37FA001DD926 /* AnimeMangaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873404B298F37FA001DD926 /* AnimeMangaDetailsView.swift */; };
+		18734050298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873404F298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift */; };
+		1873405A298F398E001DD926 /* MotivaSansBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734053298F398D001DD926 /* MotivaSansBlack.ttf */; };
+		1873405B298F398E001DD926 /* MotivaSansBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734053298F398D001DD926 /* MotivaSansBlack.ttf */; };
+		1873405C298F398E001DD926 /* MotivaSansBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734053298F398D001DD926 /* MotivaSansBlack.ttf */; };
+		1873405D298F398E001DD926 /* MotivaSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734054298F398E001DD926 /* MotivaSansRegular.ttf */; };
+		1873405E298F398E001DD926 /* MotivaSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734054298F398E001DD926 /* MotivaSansRegular.ttf */; };
+		1873405F298F398E001DD926 /* MotivaSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734054298F398E001DD926 /* MotivaSansRegular.ttf */; };
+		18734060298F398E001DD926 /* MotivaSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734055298F398E001DD926 /* MotivaSansBold.ttf */; };
+		18734061298F398E001DD926 /* MotivaSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734055298F398E001DD926 /* MotivaSansBold.ttf */; };
+		18734062298F398E001DD926 /* MotivaSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734055298F398E001DD926 /* MotivaSansBold.ttf */; };
+		18734063298F398E001DD926 /* MotivaSansExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734056298F398E001DD926 /* MotivaSansExtraBold.ttf */; };
+		18734064298F398E001DD926 /* MotivaSansExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734056298F398E001DD926 /* MotivaSansExtraBold.ttf */; };
+		18734065298F398E001DD926 /* MotivaSansExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734056298F398E001DD926 /* MotivaSansExtraBold.ttf */; };
+		18734066298F398E001DD926 /* MotivaSansMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734057298F398E001DD926 /* MotivaSansMedium.ttf */; };
+		18734067298F398E001DD926 /* MotivaSansMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734057298F398E001DD926 /* MotivaSansMedium.ttf */; };
+		18734068298F398E001DD926 /* MotivaSansMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734057298F398E001DD926 /* MotivaSansMedium.ttf */; };
+		18734069298F398E001DD926 /* MotivaSansThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734058298F398E001DD926 /* MotivaSansThin.ttf */; };
+		1873406A298F398E001DD926 /* MotivaSansThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734058298F398E001DD926 /* MotivaSansThin.ttf */; };
+		1873406B298F398E001DD926 /* MotivaSansThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734058298F398E001DD926 /* MotivaSansThin.ttf */; };
+		1873406C298F398E001DD926 /* MotivaSansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734059298F398E001DD926 /* MotivaSansLight.ttf */; };
+		1873406D298F398E001DD926 /* MotivaSansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734059298F398E001DD926 /* MotivaSansLight.ttf */; };
+		1873406E298F398E001DD926 /* MotivaSansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734059298F398E001DD926 /* MotivaSansLight.ttf */; };
+		18734073298F399F001DD926 /* Steam Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1873406F298F399E001DD926 /* Steam Font.ttf */; };
+		18734074298F399F001DD926 /* Steam Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1873406F298F399E001DD926 /* Steam Font.ttf */; };
+		18734075298F399F001DD926 /* Steam Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1873406F298F399E001DD926 /* Steam Font.ttf */; };
+		18734076298F399F001DD926 /* Steam Font Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734070298F399E001DD926 /* Steam Font Black.ttf */; };
+		18734077298F399F001DD926 /* Steam Font Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734070298F399E001DD926 /* Steam Font Black.ttf */; };
+		18734078298F399F001DD926 /* Steam Font Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734070298F399E001DD926 /* Steam Font Black.ttf */; };
+		18734079298F399F001DD926 /* Steam Font Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734071298F399E001DD926 /* Steam Font Bold.ttf */; };
+		1873407A298F399F001DD926 /* Steam Font Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734071298F399E001DD926 /* Steam Font Bold.ttf */; };
+		1873407B298F399F001DD926 /* Steam Font Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734071298F399E001DD926 /* Steam Font Bold.ttf */; };
+		1873407C298F399F001DD926 /* Steam Font Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734072298F399F001DD926 /* Steam Font Medium.ttf */; };
+		1873407D298F399F001DD926 /* Steam Font Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734072298F399F001DD926 /* Steam Font Medium.ttf */; };
+		1873407E298F399F001DD926 /* Steam Font Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734072298F399F001DD926 /* Steam Font Medium.ttf */; };
+		18734081298F39CC001DD926 /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734080298F39CC001DD926 /* FontName.swift */; };
+		18734082298F39CC001DD926 /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734080298F39CC001DD926 /* FontName.swift */; };
+		18734083298F39CC001DD926 /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734080298F39CC001DD926 /* FontName.swift */; };
+		18734086298F4301001DD926 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734085298F4301001DD926 /* View+Extension.swift */; };
+		18734087298F4301001DD926 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734085298F4301001DD926 /* View+Extension.swift */; };
+		18734088298F4301001DD926 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734085298F4301001DD926 /* View+Extension.swift */; };
+		1873408A298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */; };
+		1873408B298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */; };
+		1873408C298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */; };
+		18984464298F34BC004E452B /* NihonikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984463298F34BC004E452B /* NihonikoApp.swift */; };
+		18984466298F34BC004E452B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984465298F34BC004E452B /* ContentView.swift */; };
+		18984468298F34C0004E452B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18984467298F34C0004E452B /* Assets.xcassets */; };
+		1898446B298F34C0004E452B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1898446A298F34C0004E452B /* Preview Assets.xcassets */; };
+		1898446D298F34C0004E452B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898446C298F34C0004E452B /* Persistence.swift */; };
+		18984470298F34C0004E452B /* Nihoniko.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1898446E298F34C0004E452B /* Nihoniko.xcdatamodeld */; };
+		1898447A298F34C0004E452B /* NihonikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984479298F34C0004E452B /* NihonikoTests.swift */; };
+		18984484298F34C0004E452B /* NihonikoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984483298F34C0004E452B /* NihonikoUITests.swift */; };
+		18984486298F34C0004E452B /* NihonikoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984485298F34C0004E452B /* NihonikoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18984476298F34C0004E452B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18984458298F34BC004E452B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1898445F298F34BC004E452B;
+			remoteInfo = Nihoniko;
+		};
+		18984480298F34C0004E452B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18984458298F34BC004E452B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1898445F298F34BC004E452B;
+			remoteInfo = Nihoniko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1873404B298F37FA001DD926 /* AnimeMangaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsView.swift; sourceTree = "<group>"; };
+		1873404F298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsHeaderView.swift; sourceTree = "<group>"; };
+		18734053298F398D001DD926 /* MotivaSansBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansBlack.ttf; sourceTree = "<group>"; };
+		18734054298F398E001DD926 /* MotivaSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansRegular.ttf; sourceTree = "<group>"; };
+		18734055298F398E001DD926 /* MotivaSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansBold.ttf; sourceTree = "<group>"; };
+		18734056298F398E001DD926 /* MotivaSansExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansExtraBold.ttf; sourceTree = "<group>"; };
+		18734057298F398E001DD926 /* MotivaSansMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansMedium.ttf; sourceTree = "<group>"; };
+		18734058298F398E001DD926 /* MotivaSansThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansThin.ttf; sourceTree = "<group>"; };
+		18734059298F398E001DD926 /* MotivaSansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansLight.ttf; sourceTree = "<group>"; };
+		1873406F298F399E001DD926 /* Steam Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steam Font.ttf"; sourceTree = "<group>"; };
+		18734070298F399E001DD926 /* Steam Font Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steam Font Black.ttf"; sourceTree = "<group>"; };
+		18734071298F399E001DD926 /* Steam Font Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steam Font Bold.ttf"; sourceTree = "<group>"; };
+		18734072298F399F001DD926 /* Steam Font Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steam Font Medium.ttf"; sourceTree = "<group>"; };
+		18734080298F39CC001DD926 /* FontName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
+		18734084298F3B1C001DD926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18734085298F4301001DD926 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsInformationView.swift; sourceTree = "<group>"; };
+		18984460298F34BC004E452B /* Nihoniko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nihoniko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18984463298F34BC004E452B /* NihonikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonikoApp.swift; sourceTree = "<group>"; };
+		18984465298F34BC004E452B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18984467298F34C0004E452B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1898446A298F34C0004E452B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1898446C298F34C0004E452B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1898446F298F34C0004E452B /* Nihoniko.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nihoniko.xcdatamodel; sourceTree = "<group>"; };
+		18984475298F34C0004E452B /* NihonikoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NihonikoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18984479298F34C0004E452B /* NihonikoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonikoTests.swift; sourceTree = "<group>"; };
+		1898447F298F34C0004E452B /* NihonikoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NihonikoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18984483298F34C0004E452B /* NihonikoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonikoUITests.swift; sourceTree = "<group>"; };
+		18984485298F34C0004E452B /* NihonikoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonikoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1898445D298F34BC004E452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18984472298F34C0004E452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898447C298F34C0004E452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18734049298F370F001DD926 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1873404D298F3803001DD926 /* AnimeMangaDetailsView */,
+				1873404B298F37FA001DD926 /* AnimeMangaDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1873404A298F3718001DD926 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1873404D298F3803001DD926 /* AnimeMangaDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				1873404F298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift */,
+				18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */,
+			);
+			path = AnimeMangaDetailsView;
+			sourceTree = "<group>";
+		};
+		18734051298F395E001DD926 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18734052298F3967001DD926 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18734052298F3967001DD926 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18734070298F399E001DD926 /* Steam Font Black.ttf */,
+				18734071298F399E001DD926 /* Steam Font Bold.ttf */,
+				18734072298F399F001DD926 /* Steam Font Medium.ttf */,
+				1873406F298F399E001DD926 /* Steam Font.ttf */,
+				18734053298F398D001DD926 /* MotivaSansBlack.ttf */,
+				18734055298F398E001DD926 /* MotivaSansBold.ttf */,
+				18734056298F398E001DD926 /* MotivaSansExtraBold.ttf */,
+				18734059298F398E001DD926 /* MotivaSansLight.ttf */,
+				18734057298F398E001DD926 /* MotivaSansMedium.ttf */,
+				18734054298F398E001DD926 /* MotivaSansRegular.ttf */,
+				18734058298F398E001DD926 /* MotivaSansThin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1873407F298F39B0001DD926 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				18734080298F39CC001DD926 /* FontName.swift */,
+				18734085298F4301001DD926 /* View+Extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		18984457298F34BC004E452B = {
+			isa = PBXGroup;
+			children = (
+				18984462298F34BC004E452B /* Nihoniko */,
+				18984478298F34C0004E452B /* NihonikoTests */,
+				18984482298F34C0004E452B /* NihonikoUITests */,
+				18984461298F34BC004E452B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18984461298F34BC004E452B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18984460298F34BC004E452B /* Nihoniko.app */,
+				18984475298F34C0004E452B /* NihonikoTests.xctest */,
+				1898447F298F34C0004E452B /* NihonikoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18984462298F34BC004E452B /* Nihoniko */ = {
+			isa = PBXGroup;
+			children = (
+				18734084298F3B1C001DD926 /* Info.plist */,
+				1873407F298F39B0001DD926 /* Shared */,
+				18734051298F395E001DD926 /* Resources */,
+				1873404A298F3718001DD926 /* Models */,
+				18734049298F370F001DD926 /* Views */,
+				18984463298F34BC004E452B /* NihonikoApp.swift */,
+				18984465298F34BC004E452B /* ContentView.swift */,
+				18984467298F34C0004E452B /* Assets.xcassets */,
+				1898446C298F34C0004E452B /* Persistence.swift */,
+				1898446E298F34C0004E452B /* Nihoniko.xcdatamodeld */,
+				18984469298F34C0004E452B /* Preview Content */,
+			);
+			path = Nihoniko;
+			sourceTree = "<group>";
+		};
+		18984469298F34C0004E452B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1898446A298F34C0004E452B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18984478298F34C0004E452B /* NihonikoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18984479298F34C0004E452B /* NihonikoTests.swift */,
+			);
+			path = NihonikoTests;
+			sourceTree = "<group>";
+		};
+		18984482298F34C0004E452B /* NihonikoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18984483298F34C0004E452B /* NihonikoUITests.swift */,
+				18984485298F34C0004E452B /* NihonikoUITestsLaunchTests.swift */,
+			);
+			path = NihonikoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1898445F298F34BC004E452B /* Nihoniko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18984489298F34C0004E452B /* Build configuration list for PBXNativeTarget "Nihoniko" */;
+			buildPhases = (
+				1898445C298F34BC004E452B /* Sources */,
+				1898445D298F34BC004E452B /* Frameworks */,
+				1898445E298F34BC004E452B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nihoniko;
+			productName = Nihoniko;
+			productReference = 18984460298F34BC004E452B /* Nihoniko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18984474298F34C0004E452B /* NihonikoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1898448C298F34C0004E452B /* Build configuration list for PBXNativeTarget "NihonikoTests" */;
+			buildPhases = (
+				18984471298F34C0004E452B /* Sources */,
+				18984472298F34C0004E452B /* Frameworks */,
+				18984473298F34C0004E452B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18984477298F34C0004E452B /* PBXTargetDependency */,
+			);
+			name = NihonikoTests;
+			productName = NihonikoTests;
+			productReference = 18984475298F34C0004E452B /* NihonikoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1898447E298F34C0004E452B /* NihonikoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1898448F298F34C0004E452B /* Build configuration list for PBXNativeTarget "NihonikoUITests" */;
+			buildPhases = (
+				1898447B298F34C0004E452B /* Sources */,
+				1898447C298F34C0004E452B /* Frameworks */,
+				1898447D298F34C0004E452B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18984481298F34C0004E452B /* PBXTargetDependency */,
+			);
+			name = NihonikoUITests;
+			productName = NihonikoUITests;
+			productReference = 1898447F298F34C0004E452B /* NihonikoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18984458298F34BC004E452B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1898445F298F34BC004E452B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					18984474298F34C0004E452B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1898445F298F34BC004E452B;
+					};
+					1898447E298F34C0004E452B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1898445F298F34BC004E452B;
+					};
+				};
+			};
+			buildConfigurationList = 1898445B298F34BC004E452B /* Build configuration list for PBXProject "Nihoniko" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18984457298F34BC004E452B;
+			productRefGroup = 18984461298F34BC004E452B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1898445F298F34BC004E452B /* Nihoniko */,
+				18984474298F34C0004E452B /* NihonikoTests */,
+				1898447E298F34C0004E452B /* NihonikoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1898445E298F34BC004E452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18734060298F398E001DD926 /* MotivaSansBold.ttf in Resources */,
+				1873405A298F398E001DD926 /* MotivaSansBlack.ttf in Resources */,
+				18734076298F399F001DD926 /* Steam Font Black.ttf in Resources */,
+				1873405D298F398E001DD926 /* MotivaSansRegular.ttf in Resources */,
+				18734063298F398E001DD926 /* MotivaSansExtraBold.ttf in Resources */,
+				18734066298F398E001DD926 /* MotivaSansMedium.ttf in Resources */,
+				18734073298F399F001DD926 /* Steam Font.ttf in Resources */,
+				1873406C298F398E001DD926 /* MotivaSansLight.ttf in Resources */,
+				1898446B298F34C0004E452B /* Preview Assets.xcassets in Resources */,
+				18734079298F399F001DD926 /* Steam Font Bold.ttf in Resources */,
+				18734069298F398E001DD926 /* MotivaSansThin.ttf in Resources */,
+				1873407C298F399F001DD926 /* Steam Font Medium.ttf in Resources */,
+				18984468298F34C0004E452B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18984473298F34C0004E452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873405B298F398E001DD926 /* MotivaSansBlack.ttf in Resources */,
+				18734067298F398E001DD926 /* MotivaSansMedium.ttf in Resources */,
+				1873406A298F398E001DD926 /* MotivaSansThin.ttf in Resources */,
+				1873407A298F399F001DD926 /* Steam Font Bold.ttf in Resources */,
+				18734074298F399F001DD926 /* Steam Font.ttf in Resources */,
+				1873406D298F398E001DD926 /* MotivaSansLight.ttf in Resources */,
+				18734064298F398E001DD926 /* MotivaSansExtraBold.ttf in Resources */,
+				18734061298F398E001DD926 /* MotivaSansBold.ttf in Resources */,
+				1873405E298F398E001DD926 /* MotivaSansRegular.ttf in Resources */,
+				18734077298F399F001DD926 /* Steam Font Black.ttf in Resources */,
+				1873407D298F399F001DD926 /* Steam Font Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898447D298F34C0004E452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873405C298F398E001DD926 /* MotivaSansBlack.ttf in Resources */,
+				18734068298F398E001DD926 /* MotivaSansMedium.ttf in Resources */,
+				1873406B298F398E001DD926 /* MotivaSansThin.ttf in Resources */,
+				1873407B298F399F001DD926 /* Steam Font Bold.ttf in Resources */,
+				18734075298F399F001DD926 /* Steam Font.ttf in Resources */,
+				1873406E298F398E001DD926 /* MotivaSansLight.ttf in Resources */,
+				18734065298F398E001DD926 /* MotivaSansExtraBold.ttf in Resources */,
+				18734062298F398E001DD926 /* MotivaSansBold.ttf in Resources */,
+				1873405F298F398E001DD926 /* MotivaSansRegular.ttf in Resources */,
+				18734078298F399F001DD926 /* Steam Font Black.ttf in Resources */,
+				1873407E298F399F001DD926 /* Steam Font Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1898445C298F34BC004E452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873408A298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */,
+				18734050298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift in Sources */,
+				18984470298F34C0004E452B /* Nihoniko.xcdatamodeld in Sources */,
+				18734086298F4301001DD926 /* View+Extension.swift in Sources */,
+				1898446D298F34C0004E452B /* Persistence.swift in Sources */,
+				18984466298F34BC004E452B /* ContentView.swift in Sources */,
+				18734081298F39CC001DD926 /* FontName.swift in Sources */,
+				1873404C298F37FA001DD926 /* AnimeMangaDetailsView.swift in Sources */,
+				18984464298F34BC004E452B /* NihonikoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18984471298F34C0004E452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898447A298F34C0004E452B /* NihonikoTests.swift in Sources */,
+				18734087298F4301001DD926 /* View+Extension.swift in Sources */,
+				1873408B298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */,
+				18734082298F39CC001DD926 /* FontName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1898447B298F34C0004E452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18734083298F39CC001DD926 /* FontName.swift in Sources */,
+				18984486298F34C0004E452B /* NihonikoUITestsLaunchTests.swift in Sources */,
+				18734088298F4301001DD926 /* View+Extension.swift in Sources */,
+				18984484298F34C0004E452B /* NihonikoUITests.swift in Sources */,
+				1873408C298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18984477298F34C0004E452B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1898445F298F34BC004E452B /* Nihoniko */;
+			targetProxy = 18984476298F34C0004E452B /* PBXContainerItemProxy */;
+		};
+		18984481298F34C0004E452B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1898445F298F34BC004E452B /* Nihoniko */;
+			targetProxy = 18984480298F34C0004E452B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18984487298F34C0004E452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18984488298F34C0004E452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1898448A298F34C0004E452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nihoniko/Preview Content\"";
+				DEVELOPMENT_TEAM = AK63LT6QFU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nihoniko/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyffi.Nihoniko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1898448B298F34C0004E452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nihoniko/Preview Content\"";
+				DEVELOPMENT_TEAM = AK63LT6QFU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nihoniko/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyffi.Nihoniko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1898448D298F34C0004E452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK63LT6QFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyffi.NihonikoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nihoniko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nihoniko";
+			};
+			name = Debug;
+		};
+		1898448E298F34C0004E452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK63LT6QFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyffi.NihonikoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nihoniko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nihoniko";
+			};
+			name = Release;
+		};
+		18984490298F34C0004E452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK63LT6QFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyffi.NihonikoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nihoniko;
+			};
+			name = Debug;
+		};
+		18984491298F34C0004E452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK63LT6QFU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyffi.NihonikoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nihoniko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1898445B298F34BC004E452B /* Build configuration list for PBXProject "Nihoniko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18984487298F34C0004E452B /* Debug */,
+				18984488298F34C0004E452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18984489298F34C0004E452B /* Build configuration list for PBXNativeTarget "Nihoniko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1898448A298F34C0004E452B /* Debug */,
+				1898448B298F34C0004E452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1898448C298F34C0004E452B /* Build configuration list for PBXNativeTarget "NihonikoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1898448D298F34C0004E452B /* Debug */,
+				1898448E298F34C0004E452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1898448F298F34C0004E452B /* Build configuration list for PBXNativeTarget "NihonikoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18984490298F34C0004E452B /* Debug */,
+				18984491298F34C0004E452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1898446E298F34C0004E452B /* Nihoniko.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1898446F298F34C0004E452B /* Nihoniko.xcdatamodel */,
+			);
+			currentVersion = 1898446F298F34C0004E452B /* Nihoniko.xcdatamodel */;
+			path = Nihoniko.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18984458298F34BC004E452B /* Project object */;
+}
