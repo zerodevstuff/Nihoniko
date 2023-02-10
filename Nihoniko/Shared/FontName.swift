@@ -12,4 +12,5 @@ enum FontName: String {
     case Motiva_Thin = "MotivaSans-Thin"
     case Motiva_Bold = "MotivaSans-Bold"
     case Motiva_Regular = "MotivaSans-Regular"
+    case Motiva_Medium = "MotivaSans-Medium"
 }

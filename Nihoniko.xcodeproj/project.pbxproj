@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184A925F2995F38400484526 /* TagSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A925E2995F38400484526 /* TagSingle.swift */; };
+		184A92612995F63E00484526 /* TagCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A92602995F63E00484526 /* TagCarousel.swift */; };
 		1873404C298F37FA001DD926 /* AnimeMangaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873404B298F37FA001DD926 /* AnimeMangaDetailsView.swift */; };
 		18734050298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873404F298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift */; };
 		1873405A298F398E001DD926 /* MotivaSansBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18734053298F398D001DD926 /* MotivaSansBlack.ttf */; };
@@ -51,6 +53,9 @@
 		1873408A298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */; };
 		1873408B298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */; };
 		1873408C298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */; };
+		188D53EB299030FD00AB0E9C /* AnimeMangaDetailsLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D53EA299030FD00AB0E9C /* AnimeMangaDetailsLinkView.swift */; };
+		188D53ED2990325300AB0E9C /* AnimeMangaDetailsLinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D53EC2990325300AB0E9C /* AnimeMangaDetailsLinkButtonView.swift */; };
+		188D53EF299033BF00AB0E9C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D53EE299033BF00AB0E9C /* Color+Extension.swift */; };
 		18984464298F34BC004E452B /* NihonikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984463298F34BC004E452B /* NihonikoApp.swift */; };
 		18984466298F34BC004E452B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984465298F34BC004E452B /* ContentView.swift */; };
 		18984468298F34C0004E452B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18984467298F34C0004E452B /* Assets.xcassets */; };
@@ -80,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184A925E2995F38400484526 /* TagSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSingle.swift; sourceTree = "<group>"; };
+		184A92602995F63E00484526 /* TagCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCarousel.swift; sourceTree = "<group>"; };
 		1873404B298F37FA001DD926 /* AnimeMangaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsView.swift; sourceTree = "<group>"; };
 		1873404F298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsHeaderView.swift; sourceTree = "<group>"; };
 		18734053298F398D001DD926 /* MotivaSansBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotivaSansBlack.ttf; sourceTree = "<group>"; };
@@ -97,6 +104,9 @@
 		18734084298F3B1C001DD926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		18734085298F4301001DD926 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsInformationView.swift; sourceTree = "<group>"; };
+		188D53EA299030FD00AB0E9C /* AnimeMangaDetailsLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsLinkView.swift; sourceTree = "<group>"; };
+		188D53EC2990325300AB0E9C /* AnimeMangaDetailsLinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMangaDetailsLinkButtonView.swift; sourceTree = "<group>"; };
+		188D53EE299033BF00AB0E9C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		18984460298F34BC004E452B /* Nihoniko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nihoniko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18984463298F34BC004E452B /* NihonikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonikoApp.swift; sourceTree = "<group>"; };
 		18984465298F34BC004E452B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -139,6 +149,7 @@
 		18734049298F370F001DD926 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				188D53E929902C5600AB0E9C /* Global */,
 				1873404D298F3803001DD926 /* AnimeMangaDetailsView */,
 				1873404B298F37FA001DD926 /* AnimeMangaDetailsView.swift */,
 			);
@@ -157,6 +168,8 @@
 			children = (
 				1873404F298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift */,
 				18734089298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift */,
+				188D53EA299030FD00AB0E9C /* AnimeMangaDetailsLinkView.swift */,
+				188D53EC2990325300AB0E9C /* AnimeMangaDetailsLinkButtonView.swift */,
 			);
 			path = AnimeMangaDetailsView;
 			sourceTree = "<group>";
@@ -192,8 +205,18 @@
 			children = (
 				18734080298F39CC001DD926 /* FontName.swift */,
 				18734085298F4301001DD926 /* View+Extension.swift */,
+				188D53EE299033BF00AB0E9C /* Color+Extension.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		188D53E929902C5600AB0E9C /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				184A925E2995F38400484526 /* TagSingle.swift */,
+				184A92602995F63E00484526 /* TagCarousel.swift */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 		18984457298F34BC004E452B = {
@@ -423,12 +446,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1873408A298F45EB001DD926 /* AnimeMangaDetailsInformationView.swift in Sources */,
+				184A925F2995F38400484526 /* TagSingle.swift in Sources */,
 				18734050298F382A001DD926 /* AnimeMangaDetailsHeaderView.swift in Sources */,
 				18984470298F34C0004E452B /* Nihoniko.xcdatamodeld in Sources */,
+				188D53EB299030FD00AB0E9C /* AnimeMangaDetailsLinkView.swift in Sources */,
 				18734086298F4301001DD926 /* View+Extension.swift in Sources */,
+				184A92612995F63E00484526 /* TagCarousel.swift in Sources */,
 				1898446D298F34C0004E452B /* Persistence.swift in Sources */,
 				18984466298F34BC004E452B /* ContentView.swift in Sources */,
+				188D53EF299033BF00AB0E9C /* Color+Extension.swift in Sources */,
 				18734081298F39CC001DD926 /* FontName.swift in Sources */,
+				188D53ED2990325300AB0E9C /* AnimeMangaDetailsLinkButtonView.swift in Sources */,
 				1873404C298F37FA001DD926 /* AnimeMangaDetailsView.swift in Sources */,
 				18984464298F34BC004E452B /* NihonikoApp.swift in Sources */,
 			);

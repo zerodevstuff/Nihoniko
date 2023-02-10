@@ -17,29 +17,43 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }
+//        NavigationView {
+//            List {
+//                ForEach(items) { item in
+//                    NavigationLink {
+//                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+//                    } label: {
+//                        Text(item.timestamp!, formatter: itemFormatter)
+//                    }
+//                }
+//                .onDelete(perform: deleteItems)
+//            }
+//            .toolbar {
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    EditButton()
+//                }
+//                ToolbarItem {
+//                    Button(action: addItem) {
+//                        Label("Add Item", systemImage: "plus")
+//                    }
+//                }
+//            }
+//            Text("Select an item")
+//        }
+//        AnimeMangaDetailsLinkButtonView(url: "https://www.crunchyroll.com/series/G0XHWM5N2/all-saints-street", icon: "https://s4.anilist.co/file/anilistcdn/link/icon/5-AWN2pVlluCOO.png", color: "#F88B24")
+        AnimeMangaDetailsLinkView(links:
+                                    [LinkModelTemp(name: "Tencent Video",
+                                                   link: "https://v.qq.com/detail/a/awnia0n2erqryf3.html",
+                                                   icon: "https://s4.anilist.co/file/anilistcdn/link/icon/121-BQIBl0q1Eh9w.png",
+                                                   color: "#2FA3F9"),
+                                    LinkModelTemp(name: "Weibo",
+                                                  link: "https://www.weibo.com/u/3027361555",
+                                                  icon: "https://s4.anilist.co/file/anilistcdn/link/icon/120-Q60x0hPKE19B.png",
+                                                  color: "#E6162D"),
+                                     LinkModelTemp(name: "CrunchyRoll",
+                                         link: "https://www.crunchyroll.com/series/G0XHWM5N2/all-saints-street",
+                                         icon: "https://s4.anilist.co/file/anilistcdn/link/icon/5-AWN2pVlluCOO.png",
+                                         color: "#F88B24")])
     }
 
     private func addItem() {
